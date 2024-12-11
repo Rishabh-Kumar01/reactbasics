@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "../src/Components/Button";
 
 function App() {
   return (
@@ -9,10 +10,6 @@ function App() {
       <Button />
     </>
   );
-}
-
-function Button() {
-  return <button>Click me</button>;
 }
 
 export default App;
